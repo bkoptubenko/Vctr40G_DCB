@@ -1,0 +1,7 @@
+.visualgdb/
+VisualGDB/
+Debug/
+Release/
+*.user
+*.aps
+.vs/

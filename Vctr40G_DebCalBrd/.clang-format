@@ -1,0 +1,38 @@
+---
+# Базовый стиль
+BasedOnStyle: LLVM
+
+# Настройки отступов
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never # Заменять табы пробелами (стандарт для проф. разработки)
+
+# Ограничение длины строки (удобно для чтения)
+ColumnLimit: 100
+
+# Оформление скобок
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true        # Скобка функции на новой строке
+  AfterStruct: false        # Скобка структуры на той же строке
+  AfterEnum: false
+  BeforeElse: false         # } else { на одной строке
+  SplitEmptyFunction: false # Не разрывать пустые функции {}
+
+# Выравнивание (делает код "табличным")
+AlignConsecutiveAssignments: true  # Выравнивать знаки = в столбик
+AlignConsecutiveMacros: true       # Выравнивать значения #define
+AlignAfterOpenBracket: Align       # Выравнивать аргументы функций под скобкой
+
+# Секции USER CODE (важно для STM32)
+KeepEmptyLinesAtTheStartOfBlocks: true
+MaxEmptyLinesToKeep: 2
+
+# Пробелы
+SpaceBeforeParens: ControlStatements # Пробел после if, for, while
+SpaceInEmptyParentheses: false
+
+# Сортировка инклудов (отключаем, чтобы не нарушить порядок HAL)
+SortIncludes: false
+
+...
