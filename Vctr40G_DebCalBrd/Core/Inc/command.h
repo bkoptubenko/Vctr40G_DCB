@@ -86,7 +86,7 @@ extern void ProcessCommandTask(uint8_t pendingCmd, uint8_t objStateCmd);
 // === CONTINUOUS PROCESS FLAGS ======================================
 
 #define PROC_NONE 0x00
-// bit 0: PulseMOD process automatic operation (signal ON/OFF fast switching)
+// bit 0: PulseMOD process automatic operation  (signal ON/OFF fast switching)
 #define PROC_PULSEMOD        (1 << 0)
 #define PROC_NA_DYNAMIC_TEST (1 << 1) // bit 1: dynamic test NA latchs
 #define PROC_SA_DYNAMIC_TEST (1 << 2) // bit 2: dynamic test SA latchs

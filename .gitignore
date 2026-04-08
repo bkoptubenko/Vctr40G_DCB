@@ -1,7 +1,9 @@
+.vs/
+.settings/
 .visualgdb/
-VisualGDB/
+*.user
+
 Debug/
 Release/
-*.user
-*.aps
-.vs/
+VisualGDBCache/
+CodeDB/

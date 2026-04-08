@@ -49,10 +49,10 @@
       <CPPLanguageStandard />
     </ClCompile>
     <Link>
-      <LibrarySearchDirectories>%(Link.LibrarySearchDirectories)</LibrarySearchDirectories>
-      <AdditionalLibraryNames>%(Link.AdditionalLibraryNames)</AdditionalLibraryNames>
-      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
-      <LinkerScript>D:\Projects_STM\Vctr40G_DebCalBrd\STM32F427IGTX_FLASH.ld</LinkerScript>
+      <LibrarySearchDirectories>;%(Link.LibrarySearchDirectories)</LibrarySearchDirectories>
+      <AdditionalLibraryNames>;%(Link.AdditionalLibraryNames)</AdditionalLibraryNames>
+      <AdditionalLinkerInputs>;%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <LinkerScript>d:\Git\Vctr40G_DCB\Vctr40G_DebCalBrd\STM32F427IGTX_FLASH.ld</LinkerScript>
       <AdditionalOptions />
     </Link>
   </ItemDefinitionGroup>
